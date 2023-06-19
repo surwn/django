@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Hotel Booking Website</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="main.js"></script>
+</head>
+<body>
+ <form class="room-booking-form"
+ action="payment.html">
+  <label>Check-in date:</label>
+  <input type="date" name="checkin">
+
+  <label>Check-out date:</label>
+  <input type="date" name="checkout">
+
+  <label>Number of guests:</label>
+  <select name="guests">
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+   <option value="5">5</option>
+  </select>
+
+  <label>Room Type:</label>
+  <select name="room-type">
+   <option value="single">Single</option>
+   <option value="double">Double</option>
+   <option value="suite">Suite</option>
+  </select>
+
+  <button type="submit">Book Now</button>
+ </form>
+
+</body>
+</html>
+
+

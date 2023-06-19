@@ -1,0 +1,165 @@
+/* CSS для страницы поиска отелей */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="date"] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+select {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0062cc;
+}
+
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search-result {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-result h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.search-result p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.search-result a {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-result a:hover {
+    background-color: #0062cc;
+}
+
+/* CSS для страницы выбора номера */
+
+.room-booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.room-booking-form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.room-booking-form input[type="date"] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.room-booking-form select {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.room-booking-form button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.room-booking-form button:hover {
+    background-color: #0062cc;
+}
+
+/* CSS для страницы оплаты */
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.payment-form input[type="text"], .payment-form input[type="number"] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.payment-form input[type="text"] {
+    width: 100%;
+}
+
+.payment-form input[type="number"] {
+    width: 50%;
+}
+
+.payment-form button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.payment-form button:hover {
+    background-color: #0062cc;
+}

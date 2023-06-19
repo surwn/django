@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Hotel Booking Website</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="main.js"></script>
+</head>
+<body>
+ <form action="room-booking-form.html">
+  <label>Check-in date:</label>
+  <input type="date" name="checkin">
+
+  <label>Check-out date:</label>
+  <input type="date" name="checkout">
+
+  <label>Number of guests:</label>
+  <select name="guests">
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+   <option value="5">5</option>
+  </select>
+
+  <button type="submit">Search</button>
+ </form>
+
+ <div class="search-results">
+  <div class="search-result">
+   <h2>Room 1</h2>
+   <p>Price: $100 per night</p>
+   <a href="#">Book Now</a>
+  </div>
+
+  <div class="search-result">
+   <h2>Room 2</h2>
+   <p>Price: $120 per night</p>
+   <a href="#">Book Now</a>
+  </div>
+
+  <div class="search-result">
+   <h2>Room 3</h2>
+   <p>Price: $150 per night</p>
+   <a href="#">Book Now</a>
+  </div>
+
+  <div class="search-result">
+   <h2>Room 4</h2>
+   <p>Price: $200 per night</p>
+   <a href="#">Book Now</a>
+  </div>
+
+ </div>
+
+</body>
+</html>
+
